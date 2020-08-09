@@ -4,7 +4,7 @@ namespace DisplayConsoleColors
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             foreach (ConsoleColor color in Enum.GetValues(typeof(ConsoleColor)))
             {
